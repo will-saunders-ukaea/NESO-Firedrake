@@ -1,0 +1,8 @@
+name: hello-world
+on: workflow_dispatch
+jobs:
+  my-job:
+    runs-on: firedrakeproject/firedrake-vanilla
+    steps:
+      - name: my-step
+        run: echo "Hello World!"
